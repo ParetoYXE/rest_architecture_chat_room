@@ -1,2 +1,2 @@
 # rest_architecture_chat_room
-A simple nodejs based chatroom implemented using Rest Architecture Design
+A simple nodejs based chatroom implemented using Rest Architecture Design. The application consists of a server component and a client component. All requests from the client side can be implemented following the below API.
