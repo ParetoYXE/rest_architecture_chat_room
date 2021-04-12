@@ -8,7 +8,9 @@ app.use(express.static(`${__dirname}/public`));
 app.use(bodyParser.json())
 
 app.post('/',(req,res)=>{
-	res.send("Main Index reached")
+	res.send({
+			message: "The user object requires an token to authenticate. Please login again"
+		})
 });
 
 
