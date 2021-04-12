@@ -1,13 +1,14 @@
 'use strict';
 var express = require('express');
+const bodyParser = require('body-parser');
 var app = express();
 
 
 app.use(express.static(`${__dirname}/public`));
+app.use(bodyParser.json())
 
-app.get('/api', function(req, res){
-
-	res.send((new Date()).toLocaleTimeString());
+app.post('/',(req,res)=>{
+	res.send("Main Index reached")
 });
 
 
