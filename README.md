@@ -3,4 +3,5 @@ A simple nodejs based chatroom implemented using Rest Architecture Design in exp
 
 required install
 
--npm install express
+-npm install express (for server) 
+-npm install fetch (for client)
